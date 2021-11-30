@@ -1,0 +1,542 @@
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        body {
+            background-color: #444340;
+            width: 1200px;
+            height: auto;
+        }
+        /*Pg Home*/
+        
+        #site {
+            margin-left: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #444340;
+            background-color: #fff;
+        }
+        
+        h1 {
+            font-family: serif;
+            font-weight: 100;
+            font-size: 45px;
+            text-align: center;
+            color: #444340;
+        }
+        
+        span {
+            padding: 1rem;
+            font-weight: lighter;
+            font-size: 24px;
+            color: #B0A7AA;
+        }
+        
+        .logo {
+            max-width: 30%;
+            margin-left: 348px;
+        }
+        
+        .rsocial {
+            margin-top: 20px;
+            width: 100%;
+            justify-content: center;
+            display: flex;
+            font-size: 35px;
+            list-style: none;
+        }
+        
+        .rsocial a {
+            color: #15B6B8;
+            padding: 2rem;
+        }
+        
+        .rsocial a:hover {
+            color: #035854;
+        }
+        
+        .menu {
+            margin-top: 20px;
+        }
+        
+        .menu ul {
+            background-color: #15B6B8;
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+        
+        .menu li a {
+            color: #efefef;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+        }
+        
+        .menu li a:hover {
+            transition: 250ms;
+            color: #035854;
+        }
+        
+        main {
+            width: 1080px;
+            position: relative;
+        }
+        
+        .Bg-img {
+            width: 1080px;
+            height: 410px;
+            left: 222px;
+            background-image: url(../img/bkginicio.png);
+            width: 100%;
+            background-size: cover;
+            opacity: 1;
+        }
+        
+        .box2 {
+            width: 1080px;
+            height: 180px;
+            padding: 2rem;
+        }
+        
+        .box1 h1 {
+            margin-left: 50px;
+            margin-top: -110px;
+            text-align: left;
+            font-family: serif;
+            font-weight: bolder;
+            color: #fff;
+        }
+        
+        .box1 span {
+            padding: 3rem;
+            font-family: serif;
+            color: #fff;
+        }
+        
+        .box2 h1 {
+            padding: 1rem;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #181818;
+        }
+        
+        .box2 span {
+            padding: 1rem;
+            font-family: serif;
+            color: #3b3a3a;
+        }
+        
+        .flex {
+            width: 100%;
+            display: flex;
+            font-size: 24px;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+        
+        .flex>div {
+            flex: 1 1 200px;
+        }
+        
+        .flex a {
+            margin-top: px;
+            color: #3b3a3a;
+            font-size: 20px;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 8px 110px;
+            justify-content: center;
+            display: block;
+        }
+        
+        .flex a:hover {
+            transition: 2ms;
+            color: #09b9b1;
+        }
+        
+        .flex p {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        img {
+            max-width: 80%;
+            display: block;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .box7 img {
+            border-radius: 50%;
+            margin-left: 150px;
+        }
+        
+        .box8 img {
+            border-radius: 50%;
+            margin-left: 150px;
+        }
+        
+        .box7 span {
+            font-size: 16px;
+            color: turquoise;
+            font-weight: bolder;
+        }
+        
+        .box8 span {
+            font-size: 16px;
+            color: turquoise;
+            font-weight: bolder;
+        }
+        
+        .section1 {
+            background-color: #efefef;
+            margin-top: 0px;
+            margin-bottom: 0;
+            padding: 15px 0;
+            width: 100%;
+            display: flex;
+            font-size: 18px;
+            flex-wrap: wrap;
+        }
+        
+        .section1>div {
+            flex: 1 1 200px;
+        }
+        
+        .section1 p {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            padding: 0.5rem;
+        }
+        
+        .section1 h3 {
+            padding: 0;
+            text-align: center;
+            font-weight: lighter;
+        }
+        
+        .img {
+            padding: 1rem;
+            max-width: 45%;
+            display: block;
+            justify-content: center;
+        }
+        
+        .sect3 p {
+            font-size: 14px;
+            padding-left: 0px;
+        }
+        
+        .sect1 img {
+            margin-left: 50px;
+        }
+        
+        .footer {
+            padding: 1rem;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+        /* - Pag-Produtos -*/
+        
+        .Bg-top {
+            width: 980px;
+            height: 310px;
+            left: 222px;
+            background-image: url(../img/bkg2.jpg);
+            width: 100%;
+            background-size: cover;
+            opacity: 1;
+        }
+        
+        .man-produto {
+            max-width: 86.1%;
+            margin-top: -84.600px;
+            margin-left: 150px;
+            background-color: #fff;
+        }
+        
+        .h1-prod {
+            padding: 15px 40px;
+            text-align: justify;
+        }
+        
+        .p-prod {
+            max-width: 50%;
+            padding: 15px 48px;
+            text-align: justify;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            line-height: 28px;
+        }
+        
+        .flexbox-produto {
+            width: 50%;
+            display: flex;
+            font-size: 20px;
+            list-style: none;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+        
+        .flexbox-produto>div {
+            flex: 1 1 200px;
+        }
+        
+        .flexbox-produto img {
+            max-width: 80%;
+            display: block;
+            justify-content: center;
+            padding: 3rem;
+        }
+        
+        .flexbox-produto p {
+            margin-left: 50px;
+        }
+        /*Pag - Sobre -*/
+        
+        #site-sobre {
+            height: 1990px;
+            margin-left: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #444340;
+            background-color: #fff;
+        }
+        
+        .Bgsobre-top {
+            width: 980px;
+            height: 310px;
+            left: 222px;
+            background-image: url(../img/bkg1.jpg);
+            width: 100%;
+            background-size: cover;
+            opacity: 1;
+        }
+        
+        .container {
+            margin-bottom: 0;
+            display: flex;
+            margin-bottom: 0;
+            margin-top: 0px;
+            margin-left: 0px;
+            background-color: #fff;
+        }
+        
+        .container img {
+            max-width: 80%;
+        }
+        
+        .box1-sobre {
+            max-width: 100%;
+            max-height: 90%;
+            margin-top: -80px;
+            margin-left: 80px;
+            background-color: #fff;
+            font-size: 20px;
+            list-style: none;
+            justify-items: center;
+        }
+        
+        .box1-sobre img {
+            max-width: 80%;
+        }
+        
+        .h1-sobre {
+            padding: 15px 40px;
+            text-align: justify;
+        }
+        
+        .p-sobre {
+            max-width: 100%;
+            padding: 15px 48px;
+            text-align: justify;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            line-height: 28px;
+        }
+        
+        .box1-sobre a {
+            text-decoration: underline;
+            margin-left: 50px;
+            color: seagreen;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        
+        .box1-sobre a:hover {
+            color: #05863d;
+        }
+        
+        .footer-sobre {
+            background-color: #444340;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #efefef;
+        }
+        /* Pag-Contato*/
+        
+        .Bgcontato-top {
+            width: 980px;
+            height: 310px;
+            left: 222px;
+            background-image: url(../img/bkg2.jpg);
+            width: 100%;
+            background-size: cover;
+            opacity: 1;
+        }
+        /*Pag - Contato*/
+        
+        .main-contato {
+            max-width: 80%;
+            margin-top: -60px;
+            margin-left: 80px;
+            height: 820px;
+            background-color: #faede9;
+            padding: 2rem;
+            font-family: sans-serif;
+        }
+        
+        .main-contato h2 {
+            padding: 2px 0px 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+            font-size: 30px;
+        }
+        
+        .main-contato p {
+            font-size: 16px;
+            font-weight: lighter;
+        }
+        
+        .form label,
+        .form input,
+        .form input,
+        .form textarea {
+            display: block;
+            width: 80%;
+            padding: 0.10rem;
+            font: inherit;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            transition: border-color, box-shadow 0.2s;
+        }
+        
+        .form input,
+        .fomr textarea {
+            font: inherit;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 8px;
+        }
+        
+        .form label {
+            color: #524f4f;
+            line-height: 1rem;
+        }
+        
+        .form label,
+        .form textarea {
+            font: inherit;
+            margin-bottom: 0.5rem;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 8px;
+        }
+        
+        .form textarea {
+            min-height: 13rem;
+            resize: vertical;
+        }
+        
+        .form input:hover,
+        .form input:focus,
+        .form textarea:hover,
+        .form textarea:focus {
+            outline: none;
+            border-color: #09cd;
+            color: #555252;
+            box-shadow: 0.0.0.3px #4dc8ff;
+        }
+        
+        .form button {
+            display: flex;
+            float: left;
+            margin-top: 10px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding: 1rem;
+            background-color: #15B6B8;
+            color: #efefef;
+            font: inherit;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        
+        .form button:hover,
+        .form button:focus {
+            outline: none;
+            background-color: #035854;
+        }
+        
+        .main-mapasite {
+            margin-left: 60px;
+            padding: 1rem;
+            max-width: 100%;
+            justify-content: center;
+        }
+        
+        .main-mapasite h3 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 32px;
+            text-align: justify;
+        }
+        
+        .footer-contado {
+            justify-content: center;
+            background-color: #444340;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .p-contato {
+            text-align: center;
+            color: #fff;
+        }
+        /*Pg-Mapa*/
+        
+        #site-mapa {
+            height: 1220px;
+            margin-left: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #444340;
+            background-color: #fff;
+        }
+        
+        .footer-mapa {
+            justify-content: center;
+            background-color: #444340;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #efefef;
+        }
+        
+        .p-mapa {
+            text-align: center;
+        }
